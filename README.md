@@ -28,11 +28,11 @@ We merge the subject and activity columns to the training/test dataframes using 
 
 To complete step 1,  we merge training and test dataframes into one dataset, using the rbind function. This d.f. is called "hardata"
 
-To complete step 2, we select only the variables containg the characters "mean" or "std", using the select function# Select only 
+To complete step 2, we select only the variables containg the characters "mean" or "std", using the select function 
 
-To add the activity labels column to our dataframe, we merge the ## 3. Merge hardata with activityLabelss by the common activity variable 
+To add the activity labels column to our dataframe, we merge hardata with activityLabels, by the common activity variable 
 
-At this point, we can convert the text in the activity variables to lowercase
+At this point, we can convert the text in the activity variables to lowercase using tolower function
 
 To complete step 4, we tidy variable names by removing dots, underscores, commas, brackets; we also set all text to lowercase
 
