@@ -11,7 +11,7 @@ walkingdownstairs
 
 subject = students in the study, referenced by numbers 1 - 30
 
-Variables ()Features/Measures):
+Variables (Features/Measures):
 note: "mean"" contained in the var name indicates an average for this measure
 "std" contained in the var name indicates the standard deviation for this measure
 
